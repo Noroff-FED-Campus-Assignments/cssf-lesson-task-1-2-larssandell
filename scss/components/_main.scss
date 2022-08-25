@@ -1,0 +1,25 @@
+body {
+    background-color: getColour(bg-body);
+}
+.title {
+    text-align: center;
+    background-color: getColour(bg-footer);
+}
+.card-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.card {
+    background-color: white;
+    width: auto;
+
+    & img {
+        width: auto;
+        height: 200px;
+    }
+
+    & p {
+        text-align: center;
+    }
+}

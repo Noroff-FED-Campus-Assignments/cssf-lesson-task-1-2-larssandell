@@ -1,0 +1,8 @@
+$colours: (
+    "bg-header": #0a0b0d,
+    "bg-body": #212226,
+    "bg-footer": #a4a5a6,
+);
+@function getColour($colour) {
+    @return map-get($colours, $colour);
+}

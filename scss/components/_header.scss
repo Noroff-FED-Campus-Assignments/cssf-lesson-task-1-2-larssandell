@@ -1,0 +1,23 @@
+header {
+    background-color: getColour(bg-header);
+    height: 50px;
+
+    & .navbar {
+        display: flex;
+        justify-content: end;
+        margin-right: 100px;
+    }
+
+    & ol {
+        display: flex;
+        flex-direction: row;
+    }
+
+    & li {
+        margin-right: 10px;
+        font-size: 2rem;
+    }
+}
+a:hover {
+    color: yellow;
+}

@@ -1,0 +1,96 @@
+footer {
+  background-color: #a4a5a6;
+}
+
+body {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 0.1fr 1fr 1fr 0.1fr;
+  grid-template-areas: "header header header" "main main main" "main main main" "footer footer footer";
+  min-height: 100vh;
+}
+
+header {
+  grid-area: header;
+}
+
+main {
+  grid-area: main;
+}
+
+footer {
+  grid-area: footer;
+}
+
+.card {
+  display: grid;
+}
+
+header {
+  background-color: #0a0b0d;
+  height: 50px;
+}
+header .navbar {
+  display: flex;
+  justify-content: end;
+  margin-right: 100px;
+}
+header ol {
+  display: flex;
+  flex-direction: row;
+}
+header li {
+  margin-right: 10px;
+  font-size: 2rem;
+}
+
+a:hover {
+  color: yellow;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+li {
+  list-style-type: none;
+}
+
+body {
+  background-color: #212226;
+}
+
+.title {
+  text-align: center;
+  background-color: #a4a5a6;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.card {
+  background-color: white;
+  width: auto;
+}
+.card img {
+  width: auto;
+  height: 200px;
+}
+.card p {
+  text-align: center;
+}/*# sourceMappingURL=styles.css.map */
